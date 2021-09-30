@@ -1,72 +1,60 @@
-body
-{
-    font-family: 'Kalam', cursive;
-    color: navy;
-    overflow: hidden;
-    margin: 0;
+body {
+  font-family: "Kalam", cursive;
+  color: navy;
+  overflow: hidden;
+  margin: 0;
 }
-.main-container
-{
-    text-align: center;
+.main-container {
+  text-align: center;
 }
-nav
-{
-    height: 15vh;
-    font-size: x-large;
-    padding-top: 40px ;
-    background-color: #F2C94C;
+nav {
+  height: 15vh;
+  font-size: x-large;
+  padding-top: 40px;
+  background-color: #f2c94c;
 }
-main
-{
-    height: 55vh;
-    margin: auto;
-    max-width: 600px;
-    padding: 1rem;
+main {
+  height: 55vh;
+  margin: auto;
+  max-width: 600px;
+  padding: 1rem;
 }
-footer
-{
-    height: 20vh;
-    margin-bottom: 0;
-    background-color: #F2C94C;
+footer {
+  height: 20vh;
+  margin-bottom: 0;
+  background-color: #f2c94c;
 }
-textarea
-{
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    min-height: 20vh;
-    margin-top: 2rem;
-    font-size: large;
-    font-family: inherit;
-
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
 }
-#translate-btn
-{
-    background-color: #F2C94C;
-    border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
-    font-size: large;
+#translate-btn {
+  background-color: #f2c94c;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Kalam", cursive;
+  font-size: large;
 }
-#translate-output
-{
-    box-sizing: border-box;
-    text-align: left;
-    padding: 1rem;
-    width: 100%;
-    min-height: 10vh;
-    max-height: 20vh;
-    overflow: scroll;
-    border: 1px solid black;
+#translate-output {
+  box-sizing: border-box;
+  text-align: left;
+  padding: 1rem;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 10vh;
+  overflow: scroll;
+  border: 1px solid black;
 }
-p
-{
-    max-width: 600px;
-   margin: auto;
+p {
+  max-width: 600px;
+  margin: auto;
 }
-#footer-header
-{
-    font-size: x-large;
+#footer-header {
+  font-size: x-large;
 }
-
